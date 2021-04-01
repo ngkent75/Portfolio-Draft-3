@@ -91,4 +91,16 @@ main {
 
 .spaceabove {
     margin-top: 200px;
+
+}
+.spacebelow {
+    margin-bottom: 200px !important; 
+    
+}
+
+@media only screen and (max-width : 992px) {
+    .imagestyle {
+        justify-content: center !important;
+        margin-top: 50px;
+    }
 }
